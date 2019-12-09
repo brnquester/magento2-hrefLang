@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="BrunoCanada\HrefLang\Model\PropertyInterface" type="BrunoCanada\HrefLang\Model\Property" />
+    <preference for="BrunoCanada\HrefLang\Model\AdapterInterface" type="BrunoCanada\HrefLang\Model\Adapter" />
+    <preference for="BrunoCanada\HrefLang\Api\CmsPageUrlRetrieverInterface" type="BrunoCanada\HrefLang\Service\HrefLang\CmsPageUrlRetriever" />
+    <preference for="BrunoCanada\HrefLang\Api\CategoryUrlRetrieverInterface" type="BrunoCanada\HrefLang\Service\HrefLang\CategoryUrlRetriever" />
+    <preference for="BrunoCanada\HrefLang\Api\ProductUrlRetrieverInterface" type="BrunoCanada\HrefLang\Service\HrefLang\ProductUrlRetriever" />
+    <type name="BrunoCanada\HrefLang\Model\Adapter">
+        <arguments>
+            <argument name="adapters" xsi:type="array">
+                <item name="product_entity_container" xsi:type="object">\BrunoCanada\HrefLang\Model\Adapter\Product</item>
+                <item name="category_entity_container" xsi:type="object">\BrunoCanada\HrefLang\Model\Adapter\Category</item>
+                <item name="page_entity_container" xsi:type="object">\BrunoCanada\HrefLang\Model\Adapter\Page</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
