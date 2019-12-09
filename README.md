@@ -10,7 +10,7 @@
 ---
 
 <p align="center"> This Magento 2 multi store extension adds the alternate hreflang tag for: Pages, Product and Category.
-    <br> 
+    <br>
 </p>
 
 ## 📝 Table of Contents
@@ -33,7 +33,7 @@
 
 ```
 PHP 7+
-Magento 2 
+Magento 2
 Zend Framework
 ```
 
@@ -44,7 +44,7 @@ Zend Framework
 2) Create the following folder inside your Magento 2 installation
 
 ```
-app/BrunoCanada/HrefLang
+app/code/BrunoCanada/HrefLang
 ```
 
 3) Paste the files of this package inside the created folder (step 2)
