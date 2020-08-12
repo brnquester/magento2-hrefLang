@@ -1,5 +1,5 @@
 {
-    "name": "BrunoCanada/HrefLang",
+    "name": "brunocanada/hreflang",
     "description": "adds the alternate hreflang tag for: Pages, Product and Category",
     "homepage": "https://github.com/bruno-canada/magento2-hrefLang",
     "type": "magento2-module",
