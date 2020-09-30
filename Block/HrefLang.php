@@ -73,10 +73,10 @@ class HrefLang extends Template
      */
     private function getStores()
     {
-        //if ($this->_scopeConfig->isSetFlag('seo/hreflang/same_website_only')) {
+        $config = $this->_scopeConfig->getValue('seo/hreflang/same_website_only');
+        if ($config === null || $config === '1') {
             return $this->getSameWebsiteStores();
-        //}
-        //return $this->_storeManager->getStores();
+        }
     }
 
     /**
