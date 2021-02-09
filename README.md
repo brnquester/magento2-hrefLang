@@ -1,8 +1,10 @@
 # Magento 2 HREF LANG SEO with Multi Store Support
 
 <div align="center">
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/bruno-canada/magento2-hrefLang.svg)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/)
+[![GitHub license](https://img.shields.io/github/license/bruno-canada/magento2-hrefLang.svg)](https://github.com/bruno-canada/magento2-hrefLang/blob/master/LICENSE)
+[![Github all releases](https://img.shields.io/github/downloads/bruno-canada/magento2-hrefLang/total.svg)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/)
+[![GitHub forks](https://img.shields.io/github/forks/bruno-canada/magento2-hrefLang.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/bruno-canada/magento2-hrefLang/network/)
 </div>
 
 ---
@@ -41,7 +43,7 @@ Composer 1.10.16
 
 1. Access your Magento 2 root directory
 2. Run `composer require brunocanada/hreflang`
-3. Check if it is installed and enabled, run `bin/magento module:status brunocanada/hreflang`
+3. Double-check if it is installed and enabled, run `bin/magento module:status brunocanada/hreflang`
 
 ## Manual Instalation
 
