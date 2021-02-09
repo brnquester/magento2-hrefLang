@@ -1,10 +1,9 @@
 # Magento 2 HREF LANG SEO with Multi Store Support
 
 <div align="center">
-[![GitHub release](https://img.shields.io/github/release/bruno-canada/magento2-hrefLang.svg)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/)
-[![GitHub license](https://img.shields.io/github/license/bruno-canada/magento2-hrefLang.svg)](https://github.com/bruno-canada/magento2-hrefLang/blob/master/LICENSE)
-[![Github all releases](https://img.shields.io/github/downloads/bruno-canada/magento2-hrefLang/total.svg)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/)
-[![GitHub forks](https://img.shields.io/github/forks/bruno-canada/magento2-hrefLang.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/bruno-canada/magento2-hrefLang/network/)
+
+[![GitHub release](https://img.shields.io/github/v/release/bruno-canada/magento2-hrefLang)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/) [![GitHub license](https://img.shields.io/github/license/bruno-canada/magento2-hrefLang)](https://github.com/bruno-canada/magento2-hrefLang/blob/master/LICENSE) [![Github all releases](https://img.shields.io/github/downloads/bruno-canada/magento2-hrefLang/total)](https://github.com/bruno-canada/magento2-hrefLang/releases/) [![GitHub forks](https://img.shields.io/github/forks/bruno-canada/magento2-hrefLang.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/bruno-canada/magento2-hrefLang/network)
+
 </div>
 
 ---
