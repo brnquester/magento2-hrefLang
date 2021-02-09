@@ -17,6 +17,9 @@
 - [About](#about)
 - [Getting Started](#getting_started)
     - [Prerequisites](#prerequisites)
+    - [Installing via Composer](#viacomposer)
+    - [Manual Instalation](#manualinstallation)
+    - [Module Management](#modulemanagement)
 
 # About <a name = "about"></a>
 
@@ -38,13 +41,13 @@ Zend Framework
 Composer 1.10.16
 ```
 
-## Installing via Composer
+## Installing via Composer <a name = "viacomposer"></a>
 
 1. Access your Magento 2 root directory
 2. Run `composer require brunocanada/hreflang`
 3. Double-check if it is installed and enabled, run `bin/magento module:status brunocanada/hreflang`
 
-## Manual Instalation
+## Manual Instalation <a name = "manualinstallation"></a>
 
 1) Download this package;
 
@@ -62,7 +65,7 @@ app/code/BrunoCanada/HrefLang
 $ bin/magento setup:upgrade
 ```
 
-## Module Management
+## Module Management <a name = "modulemanagement"></a>
 
 - Enable module: `bin/magento module:enable brunocanada/hreflang`
 - Disable module: `bin/magento module:disable brunocanada/hreflang`
