@@ -1,10 +1,10 @@
-<h3 align="center">Magento 2 HREF LANG SEO</h3>
+# Magento 2 HREF LANG SEO with Multi Store Support
 
 <div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
+[![GitHub release](https://img.shields.io/github/release/bruno-canada/magento2-hrefLang.svg)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/)
+[![GitHub license](https://img.shields.io/github/license/bruno-canada/magento2-hrefLang.svg)](https://github.com/bruno-canada/magento2-hrefLang/blob/master/LICENSE)
+[![Github all releases](https://img.shields.io/github/downloads/bruno-canada/magento2-hrefLang/total.svg)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/)
+[![GitHub forks](https://img.shields.io/github/forks/bruno-canada/magento2-hrefLang.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/bruno-canada/magento2-hrefLang/network/)
 </div>
 
 ---
@@ -13,12 +13,13 @@
     <br>
 </p>
 
-## 📝 Table of Contents
+# Table of Contents
 
 - [About](#about)
 - [Getting Started](#getting_started)
+    - [Prerequisites](#prerequisites)
 
-## 🧐 About <a name = "about"></a>
+# About <a name = "about"></a>
 
 <p>This extension solves a SEO specific problem of content duplication for Google and other search engines.</p>
 
@@ -27,17 +28,24 @@
 <p>Google Hreflang reference: https://support.google.com/webmasters/answer/189077?hl=en</p>
 <p>MOZ Hreflang reference: https://moz.com/learn/seo/hreflang-tag</p>
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+# Getting Started <a name = "getting_started"></a>
 
-### Prerequisites
+## Prerequisites <a name = "prerequisites"></a>
 
 ```
 PHP 7+
 Magento 2
 Zend Framework
+Composer 1.10.16
 ```
 
-### Installing
+## Installing via Composer
+
+1. Access your Magento 2 root directory
+2. Run `composer require brunocanada/hreflang`
+3. Double-check if it is installed and enabled, run `bin/magento module:status brunocanada/hreflang`
+
+## Manual Instalation
 
 1) Download this package;
 
@@ -54,3 +62,8 @@ app/code/BrunoCanada/HrefLang
 ```
 $ bin/magento setup:upgrade
 ```
+
+## Module Management
+
+- Enable module: `bin/magento module:enable brunocanada/hreflang`
+- Disable module: `bin/magento module:disable brunocanada/hreflang`
