@@ -1,11 +1,23 @@
 {
     "name": "brunocanada/hreflang",
-    "description": "adds the alternate hreflang tag for: Pages, Product and Category",
+    "description": "This Magento 2 multi store extension adds the alternate hreflang tag for: Pages, Product and Category.",
     "homepage": "https://github.com/bruno-canada/magento2-hrefLang",
     "type": "magento2-module",
-
-    "require": {
-    },
+    "license": "MIT",
+    "keywords": [
+        "magento 2",
+        "seo",
+        "magento 2 seo",
+        "href lang",
+        "magento 2 multi store"
+    ],
+    "authors": [
+        {
+            "name": "Bruno Bueno",
+            "homepage": "https://github.com/bruno-canada/magento2-hrefLang"
+        }
+    ],
+    "require": {},
     "autoload": {
         "files": [
             "registration.php"

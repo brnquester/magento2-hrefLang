@@ -1,10 +1,9 @@
 # Magento 2 HREF LANG SEO with Multi Store Support
 
 <div align="center">
-[![GitHub release](https://img.shields.io/github/release/bruno-canada/magento2-hrefLang.svg)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/)
-[![GitHub license](https://img.shields.io/github/license/bruno-canada/magento2-hrefLang.svg)](https://github.com/bruno-canada/magento2-hrefLang/blob/master/LICENSE)
-[![Github all releases](https://img.shields.io/github/downloads/bruno-canada/magento2-hrefLang/total.svg)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/)
-[![GitHub forks](https://img.shields.io/github/forks/bruno-canada/magento2-hrefLang.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/bruno-canada/magento2-hrefLang/network/)
+
+[![GitHub release](https://img.shields.io/github/v/release/bruno-canada/magento2-hrefLang)](https://GitHub.com/bruno-canada/magento2-hrefLang/releases/) [![GitHub license](https://img.shields.io/github/license/bruno-canada/magento2-hrefLang)](https://github.com/bruno-canada/magento2-hrefLang/blob/master/LICENSE) [![Github all releases](https://img.shields.io/github/downloads/bruno-canada/magento2-hrefLang/total)](https://github.com/bruno-canada/magento2-hrefLang/releases/) [![GitHub forks](https://img.shields.io/github/forks/bruno-canada/magento2-hrefLang.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/bruno-canada/magento2-hrefLang/network)
+
 </div>
 
 ---
@@ -18,6 +17,9 @@
 - [About](#about)
 - [Getting Started](#getting_started)
     - [Prerequisites](#prerequisites)
+    - [Installing via Composer](#viacomposer)
+    - [Manual Instalation](#manualinstallation)
+    - [Module Management](#modulemanagement)
 
 # About <a name = "about"></a>
 
@@ -39,13 +41,13 @@ Zend Framework
 Composer 1.10.16
 ```
 
-## Installing via Composer
+## Installing via Composer <a name = "viacomposer"></a>
 
 1. Access your Magento 2 root directory
 2. Run `composer require brunocanada/hreflang`
 3. Double-check if it is installed and enabled, run `bin/magento module:status brunocanada/hreflang`
 
-## Manual Instalation
+## Manual Instalation <a name = "manualinstallation"></a>
 
 1) Download this package;
 
@@ -63,7 +65,7 @@ app/code/BrunoCanada/HrefLang
 $ bin/magento setup:upgrade
 ```
 
-## Module Management
+## Module Management <a name = "modulemanagement"></a>
 
 - Enable module: `bin/magento module:enable brunocanada/hreflang`
 - Disable module: `bin/magento module:disable brunocanada/hreflang`
