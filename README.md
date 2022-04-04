@@ -45,7 +45,7 @@ Composer 1.10.16
 
 1. Access your Magento 2 root directory
 2. Run `composer require brunocanada/hreflang`
-3. Double-check if it is installed and enabled, run `bin/magento module:status brunocanada/hreflang`
+3. Double-check if it is installed and enabled, run `bin/magento module:status BrunoCanada_HrefLang`
 
 ## Manual Instalation <a name = "manualinstallation"></a>
 
@@ -67,5 +67,5 @@ $ bin/magento setup:upgrade
 
 ## Module Management <a name = "modulemanagement"></a>
 
-- Enable module: `bin/magento module:enable brunocanada/hreflang`
-- Disable module: `bin/magento module:disable brunocanada/hreflang`
+- Enable module: `bin/magento module:enable BrunoCanada_HrefLang`
+- Disable module: `bin/magento module:disable BrunoCanada_HrefLang`
